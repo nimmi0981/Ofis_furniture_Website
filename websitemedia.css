@@ -1,0 +1,46 @@
+@media only screen and (max-width: 425px){
+    * {
+        padding: 0%;
+        margin: 0%;
+      }
+      
+      .header {
+        /* min-height: 120vh; */
+        width: 425px;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
+          url(./Furnitre.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      }
+      
+      #headline {
+        color: white;
+        font-size: 65px;
+        font-weight: bold;
+        font-family: "Times New Roman";
+      }
+      
+      
+      
+      .container {
+        font-size: 65px;
+        color: white;
+        padding-top: 200px;
+        padding-left: 200px;
+      }
+      .button {
+        margin-left: 180px;
+        margin-top: 15px;
+      }
+      .btn {
+        height: 35px;
+        margin-left: 20px;
+        /* width: 100px; */
+        background: none;
+        color: #ffffff;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+      }
+}
